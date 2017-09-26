@@ -1,0 +1,24 @@
+C++ fájl generálása a nativ projekted hez, A MAPPA az ahova generálja le
+package.név.Class a projekted package neve és az osztály amihez létre akarod hozni
+ez előtt make-ni kell akkor hozza létre a classes mappát
+javah -d MAPPA -classpath ../../build/intermediates/classes/debug package.név.Class
+nos
+mindig ha változtatol valamit a classon amihez generáltál egy nativ fájlt
+előtte mindig le kell make-lni hogy a nativba bele kerüljön a java oldalon megadott metódus
+
+http://www.androidauthority.com/android-ndk-everything-need-know-677642/
+Error:Execution failed for task ':app:ndkBuild'.
+> Process 'command 'd:/Programs/Android/SDK/ndk-bundle/ndk-build.cmd'' finished with non-zero exit value 2
+javah -d cpp -classpath ../../build/intermediates/classes/debug com.abstergo.ati.mynewsupportnativeapp2.NativeClass
+Error:Execution failed for task ':app:ndkBuild'.
+> Process 'command 'd:/Programs/Android/SDK/ndk-bundle/ndk-build.cmd'' finished with non-zero exit value 2
+Tiktok a Cmake-ben van
+csak be kell irni egy library nevet és azt hogy melyik cpp fájlt akarod vele futtatni
+és ott kell loadolni ahol meghivod a nativ fv-t
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	MSB3073	The command "xcopy D:\Programs\Projects\Visual Studio\FreeGlutround2\freeglut\bin\freeglut.dll D:\Programs\Projects\Visual Studio\FreeGlutround2\Debug\ \Y
+:VCEnd" exited with code 4.	FreeGlutround2	D:\Programs\Visual Studio 2017\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets	133	
+
+
+xcopy $(SolutionDir)freeglut\bin\freeglut.dll $(OutputPath) \Y
