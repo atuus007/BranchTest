@@ -1,0 +1,29 @@
+felminösítés 48.o
+
+
+sorba rendezhetö ütemezés
+
+
+
+
+nem visszaállítható ütemezés 
+pillanatkép elkülönítés
+Korrektség alapelve
+
+Adatbázis állapota
+nemismételt olvasás
+
+
+
++3620 593 5908
+
+
+
+
+pillanat-visszaállítás 
+Ütemezés
+tranzakció is tul
+piszkos adat
+konfliktus
+fantom
+rendszerhiba 
