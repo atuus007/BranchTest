@@ -1,0 +1,12 @@
+balX: 56 Y: 96 winWidth-y: 704
+balX: 234 Y: 46 winWidth-y: 754
+balX: 167 Y: 179 winWidth-y: 621
+balX: 361 Y: 119 winWidth-y: 681
+balX: 525 Y: 74 winWidth-y: 726
+balX: 696 Y: 120 winWidth-y: 680
+balX: 731 Y: 262 winWidth-y: 538
+balX: 675 Y: 354 winWidth-y: 446
+szar szar
+balX: 539 Y: 473 winWidth-y: 327
+balX: 436 Y: 515 winWidth-y: 285
+balX: 334 Y: 520 winWidth-y: 280
